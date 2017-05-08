@@ -1,7 +1,6 @@
 # Setup - LAMP - Virtual Host 
 
 $ = Non Root User
-
 &#35; = Root User
 
 
