@@ -1,7 +1,7 @@
 # Setup - LAMP - Virtual Host 
 
 > $ = Non Root User
-> # = Root User
+> &#35; = Root User
 
 
 1. Create the Directory Structure 
@@ -32,7 +32,7 @@
 6.
 ```
 # sudo vi /etc/apache2/sites-available/example.local.conf
-```
+
 <VirtualHost *:80>
     ServerAdmin admin@example.local
     ServerName example.local
@@ -41,6 +41,7 @@
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
+```
 
 7. Enable the New Virtual Host Files
 ```
@@ -54,7 +55,9 @@
 9. Set Up Local Hosts File
 ```
 # sudo vi /etc/hosts
-```
+
 127.0.1.1   example.local
+```
+
 
 ----------------------------------------------------------------
