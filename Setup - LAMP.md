@@ -4,7 +4,7 @@ $ = Non Root User
 
 &#35; = Root User
 
-####Setup LAMP on machine Linux 15.10.
+#### Setup LAMP on machine Linux 15.10.
 1. Update System/Linux 15.10 machine 
 ```
 $ sudo apt update
